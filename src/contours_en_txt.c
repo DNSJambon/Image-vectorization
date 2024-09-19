@@ -16,11 +16,9 @@ int main(int argc, char *argv[]){
 	int total_points=0;
 	Image I = lire_fichier_image(argv[1]);
 	Image M = masque(I);
-	int x; int y;
 	int x_save=1;
 	int y_save=1;
-	x=1;
-	y=1;
+
 	
 	//detection des contours:
 	while (!est_vide(M)){

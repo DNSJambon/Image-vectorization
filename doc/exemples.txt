@@ -1,0 +1,51 @@
+Tache 5:
+
+./contours_en_txt images/carres_imbriques_8.pbm test.txt
+./contours_en_txt images/carres_doublement_imbriques_3.pbm test.txt
+
+./contours_en_eps images/carres_imbriques_8.pbm test.eps
+./contours_en_eps images/carres_doublement_imbriques_3.pbm test.eps
+
+
+Tache 6:
+
+./simplification_seg images/doodle.pbm 1 test.eps
+./simplification_seg images/doodle.pbm 5 test.eps
+./simplification_seg images/doodle.pbm 10 test.eps
+
+./simplification_seg images/zebre3.pbm 1 test.eps
+./simplification_seg images/zebre3.pbm 5 test.eps
+./simplification_seg images/zebre3.pbm 10 test.eps
+
+./simplification_seg images/lettre-L-cursive.pbm 40 test.eps
+
+
+Tache 7:
+
+/simplification_courbe2 images/arbre.pbm 1 test.eps
+/simplification_courbe3 images/arbre.pbm 1 test.eps
+
+./simplification_courbe2 images/Picasso-ColombesDeLaPaix.pbm 5 test.eps
+./simplification_courbe3 images/Picasso-ColombesDeLaPaix.pbm 5 test.eps
+./simplification_courbe2 images/Picasso-ColombesDeLaPaix.pbm 15 test.eps
+./simplification_courbe3 images/Picasso-ColombesDeLaPaix.pbm 15 test.eps
+
+./simplification_courbe2 images/pieuvre.pbm 10 test.eps
+./simplification_courbe3 images/pieuvre.pbm 10 test.eps
+./simplification_courbe2 images/pieuvre.pbm 50 test.eps
+./simplification_courbe2 images/pieuvre.pbm 50 test.eps
+
+./simplification_courbe2 images/France.pbm 30 test.eps
+./simplification_courbe3 images/France.pbm 30 test.eps
+
+./simplification_courbe2 images/Mister_Bean.pbm 35 test.eps
+./simplification_courbe3 images/Mister_Bean.pbm 35 test.eps
+
+
+
+
+
+
+
+
+
