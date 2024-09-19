@@ -12,8 +12,9 @@ make
 
 # User Manual
 
+Some pbm images are provided in the folder image/
 
-#### **Program for extracting the contours of a PBM image in EPS format**:
+### **Program for extracting the contours of a PBM image in EPS format**:
 
   - File: `contours_en_eps.c`
   
@@ -27,7 +28,9 @@ make
     ./contours_en_eps <input_file.pbm> <output_file.eps>
     ```
 
-#### **Program that generates an EPS file representing a simplification by segments from a PBM image and a threshold distance:**
+    
+### **Program that generates an EPS file representing a simplification by segments from a PBM image and a threshold distance:** 
+(The threshold distance controls the amount of detail retained by limiting the allowed deviation between the original image and its simplified representation. So d=1 will stay as close as possible to the image)
 
   - Files: `simplification_seg.c`, `simplification_seg.h`
   
@@ -41,7 +44,7 @@ make
     ./simplification_seg <image_file.pbm> <threshold_distance> <output.eps>
     ```
 
-#### **Program that generates an EPS file representing a simplification by degree-2 Bézier curves from a PBM image and a threshold distance:** 
+### **Program that generates an EPS file representing a simplification by degree-2 Bézier curves from a PBM image and a threshold distance:** 
 
   - Files: `simplification_courbe2.c`, `simplification_courbe2.h`
   
@@ -55,7 +58,7 @@ make
     ./simplification_courbe2 <image_file.pbm> <threshold_distance> <output.eps>
     ```
 
-#### **Program that generates an EPS file representing a simplification by degree-3 Bézier curves from a PBM image and a threshold distance:**
+### **Program that generates an EPS file representing a simplification by degree-3 Bézier curves from a PBM image and a threshold distance:**
 
   - Files: `simplification_courbe3.c`, `simplification_courbe3.h`
   
